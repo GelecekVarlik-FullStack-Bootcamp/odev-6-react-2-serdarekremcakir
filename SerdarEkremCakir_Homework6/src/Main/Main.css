@@ -1,0 +1,196 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+   
+    background-color: rgb(132, 155, 196);
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 60%;
+    height: 60%;
+   
+}
+
+.switch{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    height: 5%;
+}
+
+.switch button{
+    border-radius: 6px;
+    width: 10%;
+    height: 100%;
+}
+
+.switch button:last-child{
+    margin-left: 5%;
+}
+
+.add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 4%;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.add input{
+    width: 75%;
+    height: 100%;
+    display: block;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 6px;
+    padding: 15px 10px;
+    color: black;
+}
+
+.add button{
+    width: 20%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+ul{
+    
+       list-style-type: none;
+}
+
+li{
+    padding: 8px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button{
+    border-radius: 30%;
+    padding: 4px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.todoadd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 4%;
+    margin-bottom: 1%;
+}
+
+.todoadd input{
+    width: 43%;
+    height: 100%;
+    border-radius: 6px;
+    padding: 15px 10px;
+
+}
+
+.todoadd select{
+    width: 20%;
+    height: 100%;
+    border-radius: 6px;
+
+}
+
+.todoadd button{
+    height: 100%;
+    border-radius: 6px;
+    width: 10%;
+}
+
+.modalContainer{
+    background-color: rgb(132, 155, 196);
+    border-radius: 15px;
+    width: 70%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}
+
+.modalHeader{
+    display: flex;
+    align-items: center;justify-content: space-between;
+    border-bottom: solid 3px black;
+    height: 8%;
+    padding: 1%;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.modalHeader button{
+    background-color: transparent;
+    border: 0;
+    font-size:100%;
+}
+
+.modalContent{
+    width: 70%;
+    height: 70%;
+    
+}
+
+.modalAdd{
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalAdd input{
+    height: 100%;
+    border-radius: 6px;
+    width: 40%;
+    padding: 0 2%;
+}
+
+.modalAdd button{
+    height: 100%;
+    border-radius: 6px;
+    width: 10%;
+}
+
+.modalBox{
+    margin-top: 4%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.statuslisttitle{
+    width:30%
+}
+
+li input{
+    padding: 1% 1%;
+    border-radius: 6px;
+}
+
+.close{
+    z-index: -1;
+}
